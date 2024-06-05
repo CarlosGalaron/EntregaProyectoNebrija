@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" type="text/css" href="RegistrarUsuario.css">
+</head>
+<body>
+    <section>
+        <h2>Registro de Usuario</h2>
+        <form name="RegistrarUsuario" action="SvUsuario" method="post" id="registroUsuario">
+            <ul>
+                <li><label>Nombre de usuario</label></li>
+                <input type="text" name="nombreUsuario">
+                <li><label>Correo electrónico</label></li>
+                <input type="email" name="correoUsuario">
+                <li><input type="submit" id="btnRegistrar" value="Registrarse"></li>
+            </ul>
+        </form>
+    </section>
+     <script>
+        // Evento escuchador despues del submit de registrarse. podria ir en js a parte
+        document.getElementById('registroUsuario').addEventListener('submit', function(event) {
+            // Redirigir al usuario a Index.html después de registrar
+            window.location.replace('Index.html');
+        });
+    </script>
+</body>
+</html>

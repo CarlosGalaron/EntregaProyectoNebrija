@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    margin-top: 1em;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.register-section {
+    margin-top: 1em;
+    text-align: center;
+}
